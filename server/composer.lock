@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "fcf2e5f019c5943b80cb40216b501f92",
+    "content-hash": "e927612317321100cd14f8521b0dd9ab",
     "packages": [
         {
             "name": "brick/math",
@@ -1044,6 +1044,129 @@
                 }
             ],
             "time": "2023-12-03T19:50:20+00:00"
+        },
+        {
+            "name": "laravel-pulse/locklink",
+            "version": "v2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/laravel-pulse/locklink.git",
+                "reference": "f81131b683d8ba8c6811ebae811a5a7e568f6f69"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/laravel-pulse/locklink/zipball/f81131b683d8ba8c6811ebae811a5a7e568f6f69",
+                "reference": "f81131b683d8ba8c6811ebae811a5a7e568f6f69",
+                "shasum": ""
+            },
+            "require": {
+                "laravel/framework": "^11.0",
+                "laravel/tinker": "^2.9",
+                "php": "^8.2"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "LaravelPulse\\LockLink\\LockLinkServiceProvider"
+                    ],
+                    "aliases": {
+                        "lock-link": "LaravelPulse\\LockLink\\LockLinkFacade"
+                    },
+                    "dont-discover": []
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "LaravelPulse\\LockLink\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Akramul Hoque",
+                    "email": "akramulhoque.engineer@gmail.com"
+                }
+            ],
+            "description": "A laravel libery for encription data and url.",
+            "keywords": [
+                "LockLink",
+                "decrypt",
+                "decryption",
+                "encrypt",
+                "encryption",
+                "framework",
+                "laravel",
+                "lock-link"
+            ],
+            "support": {
+                "issues": "https://github.com/laravel-pulse/locklink/issues",
+                "source": "https://github.com/laravel-pulse/locklink/tree/v2.0"
+            },
+            "time": "2024-03-21T23:38:01+00:00"
+        },
+        {
+            "name": "laravel-pulse/sluggish",
+            "version": "v2.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/laravel-pulse/sluggish.git",
+                "reference": "23492bb5f5e1a5067ace8ad9b02c4a292cbe2e95"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/laravel-pulse/sluggish/zipball/23492bb5f5e1a5067ace8ad9b02c4a292cbe2e95",
+                "reference": "23492bb5f5e1a5067ace8ad9b02c4a292cbe2e95",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^8.0|^7.3"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "LaravelPulse\\Sluggish\\SluggishServiceProvider"
+                    ],
+                    "aliases": {
+                        "Sluggish": "LaravelPulse\\Sluggish\\Facades\\SluggishFacade"
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "LaravelPulse\\Sluggish\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Akramul Hoque",
+                    "email": "akramulhoque.engineer@gmail.com"
+                }
+            ],
+            "description": "A complete solution for generating slug, uuid and unique number for any laravel projects.",
+            "homepage": "https://github.com/laravel-pulse/sluggish",
+            "keywords": [
+                "laravel-pulse-sluggish",
+                "laravel-slug-helper",
+                "laravel-unique-slug-generator",
+                "slug-generator",
+                "sluggish",
+                "unique-slug-generator",
+                "unique-slug-helper"
+            ],
+            "support": {
+                "issues": "https://github.com/laravel-pulse/sluggish/issues",
+                "source": "https://github.com/laravel-pulse/sluggish/tree/v2.1"
+            },
+            "time": "2024-03-01T17:26:06+00:00"
         },
         {
             "name": "laravel/framework",
