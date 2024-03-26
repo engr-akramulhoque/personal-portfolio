@@ -23,7 +23,7 @@ class AboutRequest extends FormRequest
     {
         return [
             'title' => ['required', 'string'],
-            'avatar' => ['nullable', 'mimes:jpg,jpeg,png,gif', 'max:2000'],
+            'avatar' => 'image|mimes:jpeg,png,jpg,gif|max:2048',
             'email' => ['required', 'string', 'email'],
             'phone' => ['required', 'string'],
             'dob' => ['required'],

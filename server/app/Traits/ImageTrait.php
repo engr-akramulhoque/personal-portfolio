@@ -2,8 +2,10 @@
 
 namespace App\Traits;
 
+use App\Models\About;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\File;
+use LaravelPulse\Sluggish\Sluggish;
 
 trait ImageTrait
 {
@@ -47,7 +49,7 @@ trait ImageTrait
             }
 
             $file = $request->file($inputField);
-            $filename = time() . rand(1, 99) . '.' . $file->getClientOriginalExtension();
+            $filename = uniqid() . '.' . $file->getClientOriginalExtension();
             $file->move(public_path($path), $filename);
             $filePath = $path . '/' . $filename;
             return $filePath;

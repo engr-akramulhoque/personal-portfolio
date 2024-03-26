@@ -9,6 +9,7 @@ use App\Http\Resources\AboutResource;
 use App\Models\About;
 use App\Traits\ImageTrait;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\File;
 
 class AboutController extends Controller
 {
@@ -31,13 +32,8 @@ class AboutController extends Controller
             ], 404);
         }
 
-        // Update the About information
-        if ($request->has('avatar')) {
-            $avatar = $this->imageUpdate($request, $request->file('avatar'), $aboutInfo->avatar, '/uploads/profile');
-        }
-        $data = $request->validated();
-
-        $aboutInfo->update(array_merge($data, $avatar));
+        // Update other fields
+        $aboutInfo->update(array_merge($request->validated(), ['avatar' => $this->imageUpdate($request, 'avatar', $aboutInfo->avatar, "uploads/profile/")]));
 
         return response()->json([
             'status' => true,
