@@ -17,10 +17,9 @@ trait ImageTrait
     |*/
     public function imageUpload($request, string $inputField, string $path)
     {
-        if ($request->file($inputField)) {
+        if ($request->hasFile($inputField)) {
             $file = $request->file($inputField);
-            $extension = $file->getClientOriginalExtension();
-            $filename = time() . rand(1, 99) . '.' . $extension;
+            $filename = uniqid("img-") . '.' . $file->getClientOriginalExtension();
             $file->move(public_path($path), $filename);
 
             $filePath = $path . '/' . $filename;
@@ -47,7 +46,7 @@ trait ImageTrait
             }
 
             $file = $request->file($inputField);
-            $filename = uniqid() . '.' . $file->getClientOriginalExtension();
+            $filename = uniqid('img-') . '.' . $file->getClientOriginalExtension();
             $file->move(public_path($path), $filename);
             $filePath = $path . '/' . $filename;
             return $filePath;

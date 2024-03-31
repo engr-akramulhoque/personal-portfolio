@@ -5,17 +5,18 @@ use App\Http\Controllers\Api\Auth\LogoutController;
 use App\Http\Controllers\Api\Auth\ProfileController;
 use App\Http\Controllers\Api\Frontend\HomeController;
 use App\Http\Controllers\Api\Main\AboutController;
+use App\Http\Controllers\Api\Main\ServiceController;
 use Illuminate\Support\Facades\Route;
 
 
 /* Frontend apis */
-// login api
-Route::post('/login', LoginController::class);
 
 // landing page api
 Route::get('/home', HomeController::class);
 
 
+// login api
+Route::post('/auth/login', LoginController::class);
 
 // auth protected route
 Route::middleware('auth:sanctum')->prefix('admin')->group(function () {
@@ -30,5 +31,19 @@ Route::middleware('auth:sanctum')->prefix('admin')->group(function () {
         Route::get('/about', 'index');
         // Update about Info api
         Route::put('/about/update/{id}', 'update');
+    });
+
+    // service api
+    Route::controller(ServiceController::class)->group(function () {
+        // get all services api
+        Route::get('/services', 'index')->name('admin.services.all');
+        // get single service api
+        Route::get('/services/{id}', 'show');
+        // store single service api
+        Route::post('/services/store', 'store');
+        // update single service api
+        Route::put('/services/update/{id}', 'update');
+        // delete single service api
+        Route::delete('/services/delete/{id}', 'destroy');
     });
 });
