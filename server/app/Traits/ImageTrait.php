@@ -2,10 +2,8 @@
 
 namespace App\Traits;
 
-use App\Models\About;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\File;
-use LaravelPulse\Sluggish\Sluggish;
 
 trait ImageTrait
 {

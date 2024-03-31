@@ -7,37 +7,34 @@ use App\Http\Controllers\Controller;
 use App\Http\Requests\AboutRequest;
 use App\Http\Resources\AboutResource;
 use App\Models\About;
+use App\Traits\ApiResponsesTrait;
 use App\Traits\ImageTrait;
-use Illuminate\Http\Request;
-use Illuminate\Support\Facades\File;
 
 class AboutController extends Controller
 {
-    use LockLink, ImageTrait;
+    use LockLink, ImageTrait, ApiResponsesTrait;
 
+    /** protected functions */
     // get about info
     public function index()
     {
-        return response(new AboutResource(About::first(), 200));
+        $about = new AboutResource(About::first());
+        return $this->dataResponse($about);
     }
+
 
     // update about info
     public function update(AboutRequest $request, $id)
     {
+        // Find the resource in the database by its id.
         $aboutInfo = About::find($this->Unlock($id));
         if (!$aboutInfo) {
-            return response()->json([
-                'status' => false,
-                'message' => 'Information not found'
-            ], 404);
+            return $this->notFoundResponse("Information not found");
         }
 
-        // Update other fields
+        // Update about info fields
         $aboutInfo->update(array_merge($request->validated(), ['avatar' => $this->imageUpdate($request, 'avatar', $aboutInfo->avatar, "uploads/profile/")]));
-
-        return response()->json([
-            'status' => true,
-            'message' => 'About info updated successfully',
-        ]);
+        // success response with the updated data in json format.
+        return $this->successResponse($aboutInfo, "About information updated successfully");
     }
 }
