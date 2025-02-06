@@ -2,7 +2,7 @@
 
 <img width="945" alt="image" src="./src/assets/projects/portfolio.png">
 
-### Deployed link: https://akramulhoque-profile.areiatech.com/
+### Deployed link: <a href="https://akramulhoque-profile.areiatech.com/" target="_blank">akramulhoque-profile.areiatech.com</a>
 
 ## Table of Contents 📁
 
@@ -10,10 +10,10 @@
 2. [Implemented Sections](#implemented-sections-%EF%B8%8F)
 3. [Contributing](#contributing-)
 4. [Installation Guide](#installation-guide-)
-5. [Sample Git Workflow](#sample-git-workflow)
-6. [References & Inspirations](#references--inspirations-)
-7. [Illustrations](#illustrations-%EF%B8%8F)
-   <br>
+5. [References & Inspirations](#references--inspirations-)
+6. [Illustrations](#illustrations-%EF%B8%8F)
+
+<br>
 
 ## Technology Stack 🧰
 
@@ -49,40 +49,35 @@ We welcome contributions in the form of pull requests, issues and documentation.
 
 - Please read and abide by our [Code of Conduct](https://github.com/engr-akramulhoque/personal-portfolio/blob/master/CODE_OF_CONDUCT.md);
   our community aspires to be a respectful place both during online and in-person interactions.
-- Please follow the [installation guide](https://github.com/mittal-parth/personal-portfolio/blob/main/readme.md#installation-guide) and the [sample git workflow](https://github.com/mittal-parth/personal-portfolio/blob/main/readme.md#sample-git-workflow) to contribute.
+- Please follow the [installation guide](https://github.com/engr-akramulhoque/personal-portfolio/tree/master?tab=readme-ov-file#installation-guide-) to contribute.
 
 ## Installation Guide 🧑‍💻
 
 ### Using Git and Github
 
-- [Fork](https://docs.github.com/en/get-started/quickstart/fork-a-repo) the repo
-- [Clone](https://docs.github.com/en/get-started/quickstart/contributing-to-projects#cloning-a-fork) the forked repository
-- Enter the new `portfolio` directory with `cd portfolio`
-- Set the upstream remote to the original repository url so that git knows where to fetch updates from in future: `git remote add upstream https://github.com/mittal-parth/personal-portfolio.git`
+### Clone the Repository
+
+```bash
+  git clone https://github.com/engr-akramulhoque/personal-portfolio.git
+```
 
 ### Install required packages
 
-- `npm install`
+```bash
+  cd personal-portfolio
+```
+
+```bash
+  npm install
+```
 
 ### Run server
 
-- `npm run dev`
+```bash
+  npm run dev
+```
 
 <br/>
-
-## Sample Git Workflow
-
-- Follow the [installation guide](https://github.com/mittal-parth/personal-portfolio/blob/main/readme.md#installation-guide) to install the software
-- Create a new feature branch with `git checkout -b <name-of-your-feature-branch>`
-- Make changes and commit them in the feature branch.
-- Once done developing, switch back to the main branch with `git checkout main` ; pull the latest version of the repo with `git pull https://github.com/mittal-parth/personal-portfolio.git main`
-- Switch back to the feature branch with `git checkout <name-of-your-feature-branch>`. Apply the new changes on top of the latest version of the repo with `git rebase main`
-- [Resolve merge conflicts](https://help.github.com/articles/resolving-a-merge-conflict-from-the-command-line/) (if any)
-- Push your feature branch upto your remote repo with `git push origin <name-of-your-feature-branch>`
-- [Submit a Pull Request](https://docs.github.com/en/get-started/quickstart/contributing-to-projects#making-a-pull-request) to the main branch.
-- After any questions or changes have been resolved, your contribution would be merged in!
-
-#### If you found this repo helpful in anyway, considering giving it a star - it would mean the world to me! 🌟
 
 ## References & Inspirations 👏
 
