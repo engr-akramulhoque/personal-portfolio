@@ -4,6 +4,7 @@ import {
   cu,
   amc,
   muuphs,
+  
   cluboard,
   cash_flow,
   gdsc,
@@ -83,6 +84,8 @@ import {
   SiSqlite,
   SiJirasoftware,
   SiClickup,
+  SiJsonwebtokens,
+  SiContactlesspayment,
 } from "react-icons/si";
 
 import { FaHardHat } from "react-icons/fa";
@@ -91,7 +94,17 @@ import { IoIosNotificationsOutline } from "react-icons/io";
 
 import { FaVuejs } from "react-icons/fa6";
 
-import { DiCss3, DiJava, DiMsqlServer, DiPhp } from "react-icons/di";
+import { DiCss3, DiJava, DiMsqlServer, DiMysql, DiPhp } from "react-icons/di";
+
+import bestfoodctg from "../assets/projects/bestfoodctg.png";
+import certificate from "../assets/projects/certificate.png";
+import cleaning from "../assets/projects/clean&service.png";
+import jkabangladesh from "../assets/projects/jkabangladesh.png";
+import mfspay from "../assets/projects/mfspay.png";
+import parking from "../assets/projects/parking.png";
+import realestate from "../assets/projects/realestate.png";
+import support from "../assets/projects/support.png";
+import warehouse from "../assets/projects/warehouse.png";
 
 export const resumeLink =
   "https://drive.google.com/file/d/1vkxyMDB5_KpMwt4QXFgT2aqdRizr8Czh/view?usp=sharing";
@@ -111,10 +124,6 @@ export const navLinks = [
     title: "Education",
   },
   {
-    id: "achievements",
-    title: "Achievements",
-  },
-  {
     id: "projects",
     title: "Projects",
   },
@@ -129,6 +138,10 @@ export const navLinks = [
   {
     id: "contactMe",
     title: "Contact Me",
+  },
+  {
+    id: "achievements",
+    title: "Achievements",
   },
 ];
 
@@ -444,53 +457,50 @@ export const educationList = [
 export const projects = [
   {
     id: "project-1",
-    title: "Comicify.ai",
-    github: "https://github.com/ayush4345/Comicify.ai",
-    link: "https://comicify-ai.vercel.app/",
-    image: comicify_ai,
+    title: "Food sale E-commerce",
+    company: "Best Food CTG",
+    github: "https://github.com/engr-akramulhoque/bestfoodctg-ecommerce.git",
+    link: "https://bestfoodctg.com/",
+    image: bestfoodctg,
     content:
-      "Convert any academic/news/boring text into cool comic strips using GPT-3.5 and Stable Diffusion!",
+      "Best Food CTG is a simple eCommerce website offering a wide selection of local foods from Chittagong. It allows customers to browse, order, and get their favorite dishes delivered, providing an easy and convenient online shopping experience for food lovers.",
     stack: [
       {
         id: "icon-1",
+        icon: SiLaravel,
+        name: "Laravel",
+      },
+      {
+        id: "icon-2",
         icon: SiReact,
         name: "React",
       },
       {
-        id: "icon-2",
+        id: "icon-3",
         icon: SiTailwindcss,
         name: "TailwindCSS",
       },
       {
-        id: "icon-3",
-        icon: SiOpenai,
-        name: "OpenAI",
-      },
-      {
         id: "icon-4",
-        icon: SiGooglecloud,
-        name: "Google Cloud Platform",
-      },
-      {
-        id: "icon-5",
-        icon: SiFlask,
-        name: "Flask",
+        icon: SiJsonwebtokens,
+        name: "JWT",
       },
     ],
   },
   {
     id: "project-2",
-    title: "GreenTrust",
-    github: "https://github.com/mittal-parth/GreenTrust",
-    link: "https://green-trust-fantom.netlify.app/",
-    image: greentrust,
+    title: "Certificate Management System",
+    company: "JKA WF Bangladesh",
+    github: "https://github.com/engr-akramulhoque/certificate-management.git",
+    link: "https://certificate.jkabangladesh.com/",
+    image: certificate,
     content:
-      "Winning project at 3 hackathons, GreenTrust offers a novel solution for obtaining certification in organic farming by organizing credible and decentralized Participatory Guarantee Systems (PGSs).",
+      "A Certificate Management System provides randomly generated certificates for different branches, automating the issuance process. It allows organizations to efficiently create, distribute, and manage certificates across multiple locations, ensuring consistency and security while saving time.",
     stack: [
       {
         id: "icon-1",
-        icon: SiReact,
-        name: "React",
+        icon: SiLaravel,
+        name: "Laravel",
       },
       {
         id: "icon-2",
@@ -499,85 +509,99 @@ export const projects = [
       },
       {
         id: "icon-3",
-        icon: SiNextdotjs,
-        name: "Next.js",
+        icon: SiBootstrap,
+        name: "Bootstrap",
       },
       {
         id: "icon-4",
-        icon: SiIpfs,
-        name: "IPFS",
+        icon: SiJquery,
+        name: "jQuery",
       },
       {
         id: "icon-5",
-        icon: SiSolidity,
-        name: "Solidity",
-      },
-      {
-        id: "icon-6",
-        icon: IoIosNotificationsOutline,
-        name: "Push Protocol",
+        icon: SiContactlesspayment,
+        name: "ssl-commerce",
       },
     ],
   },
   {
     id: "project-3",
-    title: "ChargeSwap",
-    github: "https://github.com/CommanderAstern/ChargeSwap",
-    link: "https://devfolio.co/projects/chargeswap-3527",
-    image: chargeswap,
+    title: "Cleaning Services Website",
+    company: "cleanandservice.xyz",
+    github: "https://github.com/engr-akramulhoque/cleanandservice-website.git",
+    link: "https://cleanandservice.xyz/",
+    image: cleaning,
     content:
-      "A Blockchain-based EV-Battery swapping solution - winning project at ETHIndia'22, the world's largest Ethereum Hackathon",
+      "Clean & Service is a web application designed to streamline scheduling and managing cleaning and maintenance services. It allows users to book services, track job status, and manage appointments, offering an efficient solution for both service providers and clients.",
     stack: [
       {
         id: "icon-1",
-        icon: SiReact,
-        name: "React",
+        icon: SiLaravel,
+        name: "Laravel",
+      },
+      {
+        id: "icon-2",
+        icon: SiTailwindcss,
+        name: "TailwindCSS",
       },
       {
         id: "icon-3",
-        icon: SiWeb3Dotjs,
-        name: "Web3.js",
+        icon: SiBootstrap,
+        name: "Bootstrap",
       },
       {
         id: "icon-4",
-        icon: SiSolidity,
-        name: "Solidity",
+        icon: SiJquery,
+        name: "jQuery",
       },
       {
         id: "icon-5",
-        icon: FaHardHat,
-        name: "HardHat",
+        icon: SiContactlesspayment,
+        name: "ssl-commerce",
       },
       {
         id: "icon-6",
-        icon: SiIpfs,
-        name: "IPFS",
-      },
-      {
-        id: "icon-7",
-        icon: SiArduino,
-        name: "Arduino",
-      },
-      {
-        id: "icon-8",
-        icon: IoIosNotificationsOutline,
-        name: "Push Protocol",
+        icon: SiTwilio,
+        name: "Twillio",
       },
     ],
   },
   {
     id: "project-4",
-    title: "Samsotech Table Management System",
+    title: "JKA Bangladesh Official Website",
+    company: "JKA WF Bangladesh",
     github: "",
-    link: "https://www.linkedin.com/posts/mittal-parth_technologysolutions-softwaredevelopment-technology-activity-6994915645066809344-WnMY?utm_source=share&utm_medium=member_desktop",
-    image: placeicon,
+    link: "https://jkabangladesh.com/",
+    image: jkabangladesh,
     content:
-      "Restaurant, Place, Table and realtime Reservation Management with Multi-Tenant Architecture, RBAC, SMS and Email integration for Samsotech International",
+      "The official website of JKA Bangladesh Website, JKA Bangladesh Official Website build with a custom built CMS.",
     stack: [
       {
         id: "icon-1",
-        icon: SiDotnet,
-        name: "Dot Net Core MVC 6",
+        icon: SiWordpress,
+        name: "Wordpress",
+      },
+      {
+        id: "icon-3",
+        icon: DiMysql,
+        name: "Mysql Server",
+      },
+    ],
+  },
+  {
+    id: "project-5",
+    title: "Online Earning Web Applications",
+    company: "MFS Pay",
+    github: "",
+    link: "http://mfspay.online/",
+    image: mfspay,
+    content:
+      "MFS PAY is an online earning website that allows users to earn money through various digital tasks and activities. It offers multiple earning opportunities, such as surveys, referrals, and micro-tasks, providing users with an easy way to generate income online. The platform is user-friendly and supports secure transactions.",
+    stack: [
+      {
+        id: "icon-1",
+        icon: SiLaravel,
+        name: "Laravel",
       },
       {
         id: "icon-2",
@@ -586,13 +610,13 @@ export const projects = [
       },
       {
         id: "icon-3",
-        icon: DiMsqlServer,
-        name: "MS Sql Server",
+        icon: SiJquery,
+        name: "jQuery",
       },
       {
         id: "icon-4",
-        icon: SiJquery,
-        name: "jQuery",
+        icon: SiContactlesspayment,
+        name: "uddokta pay",
       },
       {
         id: "icon-5",
@@ -602,23 +626,23 @@ export const projects = [
     ],
   },
   {
-    id: "project-5",
-    title: "Non-Teaching Recruitment Portal, NITK",
-    github: "",
-    link: "http://recruitment.nitk.ac.in/",
-    image: recruitment,
-    content:
-      "The official recruitment portal for non-teaching staff with an admin panel, email notifications and payment integration.",
+    id: "project-6",
+    title: "Parking Managment System",
+    company: "Bali Arcade Shopping Mall Food Court.",
+    github: "https://github.com/engr-akramulhoque/parking-management.git",
+    link: "https://baliparking.z8tech.dev/",
+    image: parking,
+    content: "A Parking Management System is a software solution designed to efficiently manage parking facilities by automating tasks such as space allocation, vehicle tracking, and access control.",
     stack: [
       {
         id: "icon-1",
-        icon: SiRubyonrails,
-        name: "Ruby on Rails",
+        icon: SiLaravel,
+        name: "Laravel",
       },
       {
         id: "icon-2",
-        icon: SiTailwindcss,
-        name: "TailwindCSS",
+        icon: SiBootstrap,
+        name: "Bootstrap",
       },
       {
         id: "icon-3",
@@ -628,104 +652,66 @@ export const projects = [
     ],
   },
   {
-    id: "project-6",
-    title: "Career Development Centre, NITK Website",
-    github: "",
-    link: "http://cdc.nitk.ac.in/",
-    image: cdc,
-    content: "The official website of CDC, NITK with a custom built CMS.",
-    stack: [
-      {
-        id: "icon-1",
-        icon: SiRubyonrails,
-        name: "Ruby on Rails",
-      },
-      {
-        id: "icon-2",
-        icon: SiBootstrap,
-        name: "Bootstrap",
-      },
-      {
-        id: "icon-3",
-        icon: SiJavascript,
-        name: "JavaScript",
-      },
-    ],
-  },
-  {
     id: "project-7",
-    title: "Huntly",
-    github: "",
-    link: "https://devfolio.co/projects/huntly-b5a9",
-    image: huntly,
+    title: "Real Estate Web Application",
+    company: "Z-Eight Tech",
+    github: "https://github.com/engr-akramulhoque/realestate-website.git",
+    link: "https://demo-realestate.z8tech.dev",
+    image: realestate,
     content:
-      "A cross-platform mobile application that brings people closer to the physical environment and forms meaningful connections by organising real-world Treasure Hunts for free and winning rewards. The app uses machine learning to match users and form teams of like-minded people.",
+      "A Real Estate Website allows users to browse, buy, sell, or rent properties online. It features property listings with images, descriptions, and pricing, making it easy for users to search for homes or commercial spaces. The site often includes filters for location, price, and property type, providing a seamless experience for both buyers and sellers.",
     stack: [
       {
         id: "icon-1",
-        icon: SiDjango,
-        name: "Django Rest Framework",
+        icon: SiLaravel,
+        name: "Laravel",
       },
       {
         id: "icon-2",
-        icon: SiFlutter,
-        name: "Flutter",
+        icon: SiReact,
+        name: "React Js",
       },
       {
         id: "icon-3",
-        icon: SiReplit,
-        name: "Replit",
+        icon: SiTailwindcss,
+        name: "TailwindCSS",
       },
       {
         id: "icon-4",
-        icon: SiFlask,
-        name: "Flask",
-      },
-      {
-        id: "icon-5",
-        icon: SiFigma,
-        name: "Figma",
-      },
-      {
-        id: "icon-6",
-        icon: SiGooglemaps,
-        name: "Google Maps API",
+        icon: SiJquery,
+        name: "jQuery",
       },
     ],
   },
   {
     id: "project-8",
-    title: "Cluboard",
-    github: "https://github.com/mittal-parth/Cluboard",
-    link: "",
-    image: cluboard,
+    title: "Support Ticket System",
+    company: "Areia Tech",
+    github: "https://github.com/engr-akramulhoque/laravel-help-desk.git",
+    link: "http://perview-support.areiatech.com/",
+    image: support,
     content:
-      "A full-stack web application to facilitate sharing resources in college clubs with email notifications, requests and ticketing system, and analytical dashboards.",
+      "A Support Ticket System is a tool used to manage and track customer service requests. It organizes incoming queries into tickets, allowing support teams to efficiently prioritize, assign, and resolve issues. The system improves communication, response times, and ensures no request is overlooked.",
     stack: [
       {
         id: "icon-1",
-        icon: SiDjango,
-        name: "Django",
+        icon: SiLaravel,
+        name: "Laravel",
       },
       {
         id: "icon-2",
-        icon: AiFillHtml5,
-        name: "HTML",
+        icon: SiBootstrap,
+        name: "Bootstrap",
       },
       {
         id: "icon-3",
-        icon: DiCss3,
-        name: "CSS",
+        icon: SiJquery,
+        name: "jQuery",
       },
       {
         id: "icon-4",
-        icon: SiJavascript,
-        name: "JavaScript",
-      },
-      {
-        id: "icon-5",
-        icon: SiBootstrap,
-        name: "Bootstrap",
+        icon: AiFillHtml5,
+        name: "HTML",
       },
       {
         id: "icon-6",
@@ -736,12 +722,13 @@ export const projects = [
   },
   {
     id: "project-9",
-    title: "Cash Flow Minimiser",
-    github: "https://github.com/mittal-parth/Cash-Flow-Minmiser",
-    link: "https://minimise-cash-flow.netlify.app/",
-    image: cash_flow,
+    title: "Warehouse Management System",
+    company: "SMS Appliance",
+    github: "https://github.com/engr-akramulhoque/wms-software.git",
+    link: "https://smsinventory.ca",
+    image: warehouse,
     content:
-      "A React application to help users visualise and minimise cash flow among multiple transactions.",
+      "Warehouse Management System is a software that optimizes warehouse operations by automating inventory tracking, stock management, and order fulfillment.",
     stack: [
       {
         id: "icon-1",
@@ -755,8 +742,18 @@ export const projects = [
       },
       {
         id: "icon-3",
-        icon: DiCss3,
-        name: "CSS",
+        icon: SiTailwindcss,
+        name: "Tailwindcss",
+      },
+      {
+        id: "icon-4",
+        icon: SiLaravel,
+        name: "Laravel",
+      },
+      {
+        id: "icon-5",
+        icon: SiJsonwebtokens,
+        name: "JWT",
       },
     ],
   },
