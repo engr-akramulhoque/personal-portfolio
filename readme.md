@@ -55,8 +55,6 @@ We welcome contributions in the form of pull requests, issues and documentation.
 
 ### Using Git and Github
 
-### Clone the Repository
-
 ```bash
   git clone https://github.com/engr-akramulhoque/personal-portfolio.git
 ```
