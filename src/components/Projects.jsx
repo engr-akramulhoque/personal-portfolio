@@ -25,7 +25,7 @@ const Project = (props) => {
             {props.title}
           </h1>
           <p className="font-poppins font-normal text-dimWhite mt-3">
-            Tech Stack
+          Company: {props.company? props.company : "Akramul Hoque"}
           </p>
           <div className="mt-2 text-gray-500 capitalize dark:text-gray-300 group-hover:text-gray-300">
             <div className="flex sm:flex-row">
