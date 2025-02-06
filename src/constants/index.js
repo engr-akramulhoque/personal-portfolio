@@ -4,20 +4,21 @@ import {
   cu,
   amc,
   muuphs,
-  
-  cluboard,
-  cash_flow,
+  bestfoodctg,
+  certificate,
+  cleaning,
+  jkabangladesh,
+  mfspay,
+  parking,
+  realestate,
+  support,
+  warehouse,
+  portfolio,
+
   gdsc,
   iris,
   ecell,
   genesis,
-  cdc,
-  chargeswap,
-  placeicon,
-  recruitment,
-  huntly,
-  comicify_ai,
-  greentrust,
   devfolio,
   ethglobal,
   polkadot,
@@ -48,30 +49,17 @@ import {
   SiPython,
   SiCplusplus,
   SiC,
-  SiRubyonrails,
   SiJquery,
   SiVisualstudiocode,
   SiPostman,
   SiGit,
   SiMysql,
-  SiSolidity,
   SiNetlify,
   SiChartdotjs,
   SiVite,
   SiVirtualbox,
-  SiArduino,
-  SiWeb3Dotjs,
-  SiIpfs,
-  SiDotnet,
   SiTwilio,
-  SiFlutter,
-  SiReplit,
   SiFlask,
-  SiFigma,
-  SiGooglemaps,
-  SiOpenai,
-  SiGooglecloud,
-  SiNextdotjs,
   SiLaravel,
   SiCodeigniter,
   SiLivewire,
@@ -87,24 +75,12 @@ import {
   SiContactlesspayment,
 } from "react-icons/si";
 
-import { FaHardHat } from "react-icons/fa";
-
-import { IoIosNotificationsOutline } from "react-icons/io";
-
 import { FaVuejs } from "react-icons/fa6";
 
-import { DiCss3, DiJava, DiMsqlServer, DiMysql, DiPhp } from "react-icons/di";
+import { DiCss3, DiJava, DiMysql, DiPhp } from "react-icons/di";
 
-import bestfoodctg from "../assets/projects/bestfoodctg.png";
-import certificate from "../assets/projects/certificate.png";
-import cleaning from "../assets/projects/clean&service.png";
-import jkabangladesh from "../assets/projects/jkabangladesh.png";
-import mfspay from "../assets/projects/mfspay.png";
-import parking from "../assets/projects/parking.png";
-import realestate from "../assets/projects/realestate.png";
-import support from "../assets/projects/support.png";
-import warehouse from "../assets/projects/warehouse.png";
-import portfolio from "../assets/projects/portfolio.png";
+import laravelpulse from "../assets/laravel-pulse.png";
+import laravelcraft from "../assets/laravel-craft.png";
 
 export const resumeLink =
   "https://drive.google.com/file/d/1vkxyMDB5_KpMwt4QXFgT2aqdRizr8Czh/view?usp=sharing";
@@ -782,6 +758,43 @@ export const projects = [
         name: "HTML",
       },
     ],
+  },
+];
+
+// Add contributions here 
+export const contributions = [
+  {
+    id: 1,
+    logoUrl: laravelpulse,
+    organization: "laravel-pulse",
+    repo: "sluggish",
+    title: "Laravel Sluggish",
+    link: "https://packagist.org/packages/laravel-pulse/sluggish",
+    number: "#1234",
+    linesAdded: 50,
+    linesDeleted: 10,
+  },
+  {
+    id: 2,
+    logoUrl: laravelpulse,
+    organization: "laravel-pulse",
+    repo: "locklink",
+    title: "Laravel Locklink",
+    link: "https://packagist.org/packages/laravel-pulse/locklink",
+    number: "#487",
+    linesAdded: 100,
+    linesDeleted: 6,
+  },
+  {
+    id: 3,
+    logoUrl: laravelcraft,
+    organization: "LaravelCraft",
+    repo: "local2cpanel",
+    title: "Local2Cpanel",
+    link: "https://github.com/LaravelCraft/local2cpanel.git",
+    number: "#5678",
+    linesAdded: 300,
+    linesDeleted: 55,
   },
 ];
 
