@@ -1,4 +1,27 @@
 import akramulhoque from "./akramul.jpeg";
+import z8tech  from "../assets/z8tech.jpg";
+import areiatech  from "../assets/areiatech.jpg";
+import cu from "../assets/cu.jpg";
+import amc from "../assets/amc.jpg";
+import muuphs from "../assets/muuphs.jpg";
+
+import bestfoodctg from "../assets/projects/bestfoodctg.png";
+import certificate from "../assets/projects/certificate.png";
+import cleaning from "../assets/projects/clean&service.png";
+import jkabangladesh from "../assets/projects/jkabangladesh.png";
+import mfspay from "../assets/projects/mfspay.png";
+import parking from "../assets/projects/parking.png";
+import realestate from "../assets/projects/realestate.png";
+import support from "../assets/projects/support.png";
+import warehouse from "../assets/projects/warehouse.png";
+import portfolio from "../assets/projects/portfolio.png";
+import laravelpulse from "../assets/laravel-pulse.png";
+import laravelcraft from "../assets/laravel-craft.png";
+import areiatechHome from "../assets/projects/areiatech.png";
+import pos from "../assets/projects/pos.png";
+import ecommerce from "../assets/projects/ecommerce.png";
+import todoapp from "../assets/projects/todo.png";
+import logo from "../assets/logo.svg";
 
 import parthmittal from "./parth.svg";
 import profilePic from "./profile-pic.jpg";
@@ -37,31 +60,6 @@ import dennisivy from "./dennisivy.png";
 import manipal from "./manipal.png";
 import icon from "./icon.jpg";
 import ethforall from "./ethforall.png";
-
-import z8tech  from "../assets/z8tech.jpg";
-import areiatech  from "../assets/areiatech.jpg";
-import cu from "../assets/cu.jpg";
-import amc from "../assets/amc.jpg";
-import muuphs from "../assets/muuphs.jpg";
-
-import bestfoodctg from "../assets/projects/bestfoodctg.png";
-import certificate from "../assets/projects/certificate.png";
-import cleaning from "../assets/projects/clean&service.png";
-import jkabangladesh from "../assets/projects/jkabangladesh.png";
-import mfspay from "../assets/projects/mfspay.png";
-import parking from "../assets/projects/parking.png";
-import realestate from "../assets/projects/realestate.png";
-import support from "../assets/projects/support.png";
-import warehouse from "../assets/projects/warehouse.png";
-import portfolio from "../assets/projects/portfolio.png";
-import laravelpulse from "../assets/laravel-pulse.png";
-import laravelcraft from "../assets/laravel-craft.png";
-import areiatechHome from "../assets/projects/areiatech.png";
-import pos from "../assets/projects/pos.png";
-import ecommerce from "../assets/projects/ecommerce.png";
-import todoapp from "../assets/projects/todo.png";
-import logo from "../assets/logo.svg";
-
 export {
   logo,
   akramulhoque,

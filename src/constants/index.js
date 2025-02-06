@@ -85,6 +85,10 @@ import { FaVuejs } from "react-icons/fa6";
 
 import { DiCss3, DiJava, DiMysql, DiPhp } from "react-icons/di";
 
+import laravelBlog from "../assets/blogs/laravel-blog.png";
+import responsiveUI from "../assets/blogs/responsive-ui.jpg";
+import performanceOptimization from "../assets/blogs/optimization.png";
+
 export const resumeLink =
   "https://drive.google.com/file/d/1vkxyMDB5_KpMwt4QXFgT2aqdRizr8Czh/view?usp=sharing";
 
@@ -111,9 +115,21 @@ export const navLinks = [
     title: "Open Source",
   },
   {
-    id: "contactMe",
-    title: "Contact Me",
+    id: "blog",
+    title: "Blog",
   },
+  {
+    id: "contactMe",
+    title: "Contact",
+  },
+  // {
+  //   id: "extraCurricular",
+  //   title: "Extra Curricular",
+  // },
+  // {
+  //   id: "achievements",
+  //   title: "Achievements",
+  // },
 ];
 
 // Add software developments skills here for example - programming languages, frameworks etc.
@@ -941,64 +957,64 @@ export const contributions = [
 export const blogPosts = [
   {
     id: "post-1",
-    title: "Blog Post 01 - Title",
-    link: "#",
-    date: new Date().toLocaleDateString(), // Can be edited to any string format
-    image: "https://via.placeholder.com/600/92c952",
+    title: "Mastering Laravel: Best Practices for Scalable Applications",
+    link: "https://yourportfolio.com/blog/mastering-laravel",
+    date: "January 25, 2024",
+    image: laravelBlog,
     tags: [
       {
         id: "tag-1",
-        name: "tag 01",
+        name: "Laravel",
       },
       {
         id: "tag-2",
-        name: "tag 03",
+        name: "Backend Development",
       },
       {
         id: "tag-3",
-        name: "tag 03",
+        name: "PHP",
       },
     ],
   },
   {
     id: "post-2",
-    title: "Blog Post 02 - Title",
-    link: "#",
-    date: new Date().toLocaleDateString(),
-    image: "https://via.placeholder.com/600/d32776",
+    title: "Creating Responsive UI with Tailwind CSS",
+    link: "https://yourportfolio.com/blog/tailwind-responsive-ui",
+    date: "February 10, 2024",
+    image: responsiveUI,
     tags: [
       {
         id: "tag-1",
-        name: "tag 01",
+        name: "CSS",
       },
       {
         id: "tag-2",
-        name: "tag 03",
+        name: "Tailwind CSS",
       },
       {
         id: "tag-3",
-        name: "tag 03",
+        name: "Frontend",
       },
     ],
   },
   {
     id: "post-3",
-    title: "Blog Post 03 - Title",
-    link: "#",
-    date: new Date().toLocaleDateString(),
-    image: "https://via.placeholder.com/600/771796",
+    title: "Optimizing JavaScript for High-Performance Web Applications",
+    link: "https://yourportfolio.com/blog/javascript-performance",
+    date: "March 5, 2024",
+    image: performanceOptimization,
     tags: [
       {
         id: "tag-1",
-        name: "tag 01",
+        name: "JavaScript",
       },
       {
         id: "tag-2",
-        name: "tag 03",
+        name: "Optimization",
       },
       {
         id: "tag-3",
-        name: "tag 03",
+        name: "Web Performance",
       },
     ],
   },
