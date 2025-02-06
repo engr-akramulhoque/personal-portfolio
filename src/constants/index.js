@@ -11,7 +11,6 @@ import {
   iris,
   ecell,
   genesis,
-  portfolio,
   cdc,
   chargeswap,
   placeicon,
@@ -105,6 +104,7 @@ import parking from "../assets/projects/parking.png";
 import realestate from "../assets/projects/realestate.png";
 import support from "../assets/projects/support.png";
 import warehouse from "../assets/projects/warehouse.png";
+import portfolio from "../assets/projects/portfolio.png";
 
 export const resumeLink =
   "https://drive.google.com/file/d/1vkxyMDB5_KpMwt4QXFgT2aqdRizr8Czh/view?usp=sharing";
@@ -759,16 +759,17 @@ export const projects = [
   },
   {
     id: "project-10",
-    title: "Portfolio",
-    github: "https://github.com/mittal-parth/personal-portfolio",
-    link: "https://parthmittal.netlify.app/",
+    title: "Personal Portfolio",
+    company: "Akramul Hoque",
+    github: "https://github.com/engr-akramulhoque/personal-portfolio.git",
+    link: "https://akramulhoque-profile.areiatech.com/",
     image: portfolio,
     content: "Personal portfolio website with React and Tailwind CSS.",
     stack: [
       {
         id: "icon-1",
         icon: SiReact,
-        name: "React",
+        name: "React JS",
       },
       {
         id: "icon-2",
