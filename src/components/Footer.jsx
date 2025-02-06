@@ -62,7 +62,7 @@ const Footer = () => (
       </div>
     </div>
     <div className="text-center font-poppins font-normal text-dimWhite text-xs sm:text-sm pb-4">
-      <p>Made with 💙 by Akramul Hoque</p>
+      <p>© 2024 Akramul Hoque. All Rights Reserved.</p>
     </div>
   </footer>
 );

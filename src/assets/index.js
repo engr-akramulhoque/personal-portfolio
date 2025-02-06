@@ -54,8 +54,16 @@ import realestate from "../assets/projects/realestate.png";
 import support from "../assets/projects/support.png";
 import warehouse from "../assets/projects/warehouse.png";
 import portfolio from "../assets/projects/portfolio.png";
+import laravelpulse from "../assets/laravel-pulse.png";
+import laravelcraft from "../assets/laravel-craft.png";
+import areiatechHome from "../assets/projects/areiatech.png";
+import pos from "../assets/projects/pos.png";
+import ecommerce from "../assets/projects/ecommerce.png";
+import todoapp from "../assets/projects/todo.png";
+import logo from "../assets/logo.svg";
 
 export {
+  logo,
   akramulhoque,
   
   z8tech,
@@ -74,6 +82,12 @@ export {
   support,
   warehouse,
   portfolio,
+  laravelpulse,
+  laravelcraft,
+  areiatechHome,
+  pos,
+  ecommerce,
+  todoapp,
 
   quotes,
   robot,

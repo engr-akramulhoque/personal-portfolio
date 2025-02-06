@@ -14,6 +14,12 @@ import {
   support,
   warehouse,
   portfolio,
+  laravelpulse,
+  laravelcraft,
+  areiatechHome,
+  pos,
+  ecommerce,
+  todoapp,
 
   gdsc,
   iris,
@@ -79,9 +85,6 @@ import { FaVuejs } from "react-icons/fa6";
 
 import { DiCss3, DiJava, DiMysql, DiPhp } from "react-icons/di";
 
-import laravelpulse from "../assets/laravel-pulse.png";
-import laravelcraft from "../assets/laravel-craft.png";
-
 export const resumeLink =
   "https://drive.google.com/file/d/1vkxyMDB5_KpMwt4QXFgT2aqdRizr8Czh/view?usp=sharing";
 
@@ -108,16 +111,8 @@ export const navLinks = [
     title: "Open Source",
   },
   {
-    id: "extraCurricular",
-    title: "Extra Curricular",
-  },
-  {
     id: "contactMe",
     title: "Contact Me",
-  },
-  {
-    id: "achievements",
-    title: "Achievements",
   },
 ];
 
@@ -433,75 +428,6 @@ export const educationList = [
 export const projects = [
   {
     id: "project-1",
-    title: "Food sale E-commerce",
-    company: "Best Food CTG",
-    github: "https://github.com/engr-akramulhoque/bestfoodctg-ecommerce.git",
-    link: "https://bestfoodctg.com/",
-    image: bestfoodctg,
-    content:
-      "Best Food CTG is a simple eCommerce website offering a wide selection of local foods from Chittagong. It allows customers to browse, order, and get their favorite dishes delivered, providing an easy and convenient online shopping experience for food lovers.",
-    stack: [
-      {
-        id: "icon-1",
-        icon: SiLaravel,
-        name: "Laravel",
-      },
-      {
-        id: "icon-2",
-        icon: SiReact,
-        name: "React",
-      },
-      {
-        id: "icon-3",
-        icon: SiTailwindcss,
-        name: "TailwindCSS",
-      },
-      {
-        id: "icon-4",
-        icon: SiJsonwebtokens,
-        name: "JWT",
-      },
-    ],
-  },
-  {
-    id: "project-2",
-    title: "Certificate Management System",
-    company: "JKA WF Bangladesh",
-    github: "https://github.com/engr-akramulhoque/certificate-management.git",
-    link: "https://certificate.jkabangladesh.com/",
-    image: certificate,
-    content:
-      "A Certificate Management System provides randomly generated certificates for different branches, automating the issuance process. It allows organizations to efficiently create, distribute, and manage certificates across multiple locations, ensuring consistency and security while saving time.",
-    stack: [
-      {
-        id: "icon-1",
-        icon: SiLaravel,
-        name: "Laravel",
-      },
-      {
-        id: "icon-2",
-        icon: SiTailwindcss,
-        name: "TailwindCSS",
-      },
-      {
-        id: "icon-3",
-        icon: SiBootstrap,
-        name: "Bootstrap",
-      },
-      {
-        id: "icon-4",
-        icon: SiJquery,
-        name: "jQuery",
-      },
-      {
-        id: "icon-5",
-        icon: SiContactlesspayment,
-        name: "ssl-commerce",
-      },
-    ],
-  },
-  {
-    id: "project-3",
     title: "Cleaning Services Website",
     company: "cleanandservice.xyz",
     github: "https://github.com/engr-akramulhoque/cleanandservice-website.git",
@@ -543,7 +469,7 @@ export const projects = [
     ],
   },
   {
-    id: "project-4",
+    id: "project-2",
     title: "JKA Bangladesh Official Website",
     company: "JKA WF Bangladesh",
     github: "",
@@ -565,14 +491,14 @@ export const projects = [
     ],
   },
   {
-    id: "project-5",
-    title: "Online Earning Web Applications",
-    company: "MFS Pay",
-    github: "",
-    link: "http://mfspay.online/",
-    image: mfspay,
+    id: "project-3",
+    title: "Certificate Management System",
+    company: "JKA WF Bangladesh",
+    github: "https://github.com/engr-akramulhoque/certificate-management.git",
+    link: "https://certificate.jkabangladesh.com/",
+    image: certificate,
     content:
-      "MFS PAY is an online earning website that allows users to earn money through various digital tasks and activities. It offers multiple earning opportunities, such as surveys, referrals, and micro-tasks, providing users with an easy way to generate income online. The platform is user-friendly and supports secure transactions.",
+      "A Certificate Management System provides randomly generated certificates for different branches, automating the issuance process. It allows organizations to efficiently create, distribute, and manage certificates across multiple locations, ensuring consistency and security while saving time.",
     stack: [
       {
         id: "icon-1",
@@ -581,61 +507,35 @@ export const projects = [
       },
       {
         id: "icon-2",
-        icon: SiBootstrap,
-        name: "Bootstrap",
+        icon: SiTailwindcss,
+        name: "TailwindCSS",
       },
       {
         id: "icon-3",
-        icon: SiJquery,
-        name: "jQuery",
+        icon: SiBootstrap,
+        name: "Bootstrap",
       },
       {
         id: "icon-4",
-        icon: SiContactlesspayment,
-        name: "uddokta pay",
-      },
-      {
-        id: "icon-5",
-        icon: SiTwilio,
-        name: "Twillio",
-      },
-    ],
-  },
-  {
-    id: "project-6",
-    title: "Parking Managment System",
-    company: "Bali Arcade Shopping Mall Food Court.",
-    github: "https://github.com/engr-akramulhoque/parking-management.git",
-    link: "https://baliparking.z8tech.dev/",
-    image: parking,
-    content: "A Parking Management System is a software solution designed to efficiently manage parking facilities by automating tasks such as space allocation, vehicle tracking, and access control.",
-    stack: [
-      {
-        id: "icon-1",
-        icon: SiLaravel,
-        name: "Laravel",
-      },
-      {
-        id: "icon-2",
-        icon: SiBootstrap,
-        name: "Bootstrap",
-      },
-      {
-        id: "icon-3",
         icon: SiJquery,
         name: "jQuery",
       },
+      {
+        id: "icon-5",
+        icon: SiContactlesspayment,
+        name: "ssl-commerce",
+      },
     ],
   },
   {
-    id: "project-7",
-    title: "Real Estate Web Application",
-    company: "Z-Eight Tech",
-    github: "https://github.com/engr-akramulhoque/realestate-website.git",
-    link: "https://demo-realestate.z8tech.dev",
-    image: realestate,
+    id: "project-4",
+    title: "Food sale E-commerce",
+    company: "Best Food CTG",
+    github: "https://github.com/engr-akramulhoque/bestfoodctg-ecommerce.git",
+    link: "https://bestfoodctg.com/",
+    image: bestfoodctg,
     content:
-      "A Real Estate Website allows users to browse, buy, sell, or rent properties online. It features property listings with images, descriptions, and pricing, making it easy for users to search for homes or commercial spaces. The site often includes filters for location, price, and property type, providing a seamless experience for both buyers and sellers.",
+      "Best Food CTG is a simple eCommerce website offering a wide selection of local foods from Chittagong. It allows customers to browse, order, and get their favorite dishes delivered, providing an easy and convenient online shopping experience for food lovers.",
     stack: [
       {
         id: "icon-1",
@@ -645,7 +545,7 @@ export const projects = [
       {
         id: "icon-2",
         icon: SiReact,
-        name: "React Js",
+        name: "React",
       },
       {
         id: "icon-3",
@@ -654,13 +554,54 @@ export const projects = [
       },
       {
         id: "icon-4",
-        icon: SiJquery,
-        name: "jQuery",
+        icon: SiJsonwebtokens,
+        name: "JWT",
       },
     ],
   },
   {
-    id: "project-8",
+    id: "project-5",
+    title: "Multi-Vendor E-Commerce",
+    company: "Areia Tech",
+    github: "https://github.com/engr-akramulhoque/laravel-eshop.git",
+    link: "https://preview-eshop.areiatech.com/",
+    image: ecommerce,
+    content: "A Multi-Vendor E-Commerce platform allows multiple sellers to list and sell their products in a single online marketplace. It provides a seamless shopping experience for customers while enabling vendors to manage their inventory, orders, and payments efficiently. This system enhances business growth by expanding product variety and streamlining transactions.",
+    stack: [
+      {
+        id: "icon-1",
+        icon: SiLaravel,
+        name: "Laravel",
+      },
+      {
+        id: "icon-2",
+        icon: SiBootstrap,
+        name: "Bootstrap",
+      },
+      {
+        id: "icon-3",
+        icon: SiJquery,
+        name: "jQuery",
+      },
+      {
+        id: "icon-4",
+        icon: AiFillHtml5,
+        name: "HTML",
+      },
+      {
+        id: "icon-5",
+        icon: SiMysql,
+        name: "Mysql",
+      },
+      {
+        id: "icon-4",
+        icon: SiContactlesspayment,
+        name: "ssl-commerce",
+      },
+    ],
+  },
+  {
+    id: "project-6",
     title: "Support Ticket System",
     company: "Areia Tech",
     github: "https://github.com/engr-akramulhoque/laravel-help-desk.git",
@@ -697,7 +638,142 @@ export const projects = [
     ],
   },
   {
+    id: "project-7",
+    title: "Parking Managment System",
+    company: "Bali Arcade Shopping Mall Food Court.",
+    github: "https://github.com/engr-akramulhoque/parking-management.git",
+    link: "https://baliparking.z8tech.dev/",
+    image: parking,
+    content: "A Parking Management System is a software solution designed to efficiently manage parking facilities by automating tasks such as space allocation, vehicle tracking, and access control.",
+    stack: [
+      {
+        id: "icon-1",
+        icon: SiLaravel,
+        name: "Laravel",
+      },
+      {
+        id: "icon-2",
+        icon: SiBootstrap,
+        name: "Bootstrap",
+      },
+      {
+        id: "icon-3",
+        icon: SiJquery,
+        name: "jQuery",
+      },
+    ],
+  },
+  {
+    id: "project-8",
+    title: "Areia Tech Website",
+    company: "Areia Tech",
+    github: "https://github.com/areiatech/areiatech-website.git",
+    link: "https://areiatech.com/",
+    image: areiatechHome,
+    content: "Areia Tech is a comprehensive IT solutions platform that provides innovative tools for businesses to streamline operations. From customer support systems to automation services, Areia Tech enhances efficiency, improves collaboration, and ensures seamless digital experiences.",
+    stack: [
+      {
+        id: "icon-1",
+        icon: SiLaravel,
+        name: "Laravel",
+      },
+      {
+        id: "icon-2",
+        icon: SiBootstrap,
+        name: "Bootstrap",
+      },
+      {
+        id: "icon-3",
+        icon: SiJquery,
+        name: "jQuery",
+      },
+      {
+        id: "icon-4",
+        icon: AiFillHtml5,
+        name: "HTML",
+      },
+      {
+        id: "icon-6",
+        icon: SiChartdotjs,
+        name: "Chart.js",
+      },
+    ],
+  },
+  {
     id: "project-9",
+    title: "Smart POS System",
+    company: "Chistia Super Market",
+    github: "https://github.com/engr-akramulhoque/smart-pos-solution.git",
+    link: "https://preview-pos.areiatech.com/",
+    image: pos,
+    content: "A Smart POS System is an advanced point-of-sale solution that streamlines sales, inventory, and customer management. It enables businesses to process transactions efficiently, track stock in real-time, and generate insightful reports. With seamless integrations and user-friendly features, a Smart POS System enhances business operations and improves customer experience.",
+    stack: [
+      {
+        id: "icon-1",
+        icon: SiLaravel,
+        name: "Laravel",
+      },
+      {
+        id: "icon-2",
+        icon: SiBootstrap,
+        name: "Bootstrap",
+      },
+      {
+        id: "icon-3",
+        icon: SiJquery,
+        name: "jQuery",
+      },
+      {
+        id: "icon-4",
+        icon: AiFillHtml5,
+        name: "HTML",
+      },
+      {
+        id: "icon-5",
+        icon: SiMysql,
+        name: "Mysql",
+      },
+      {
+        id: "icon-6",
+        icon: SiChartdotjs,
+        name: "Chart.js",
+      },
+    ],
+  },
+  {
+    id: "project-10",
+    title: "Real Estate Web Application",
+    company: "Z-Eight Tech",
+    github: "https://github.com/engr-akramulhoque/realestate-website.git",
+    link: "https://demo-realestate.z8tech.dev",
+    image: realestate,
+    content:
+      "A Real Estate Website allows users to browse, buy, sell, or rent properties online. It features property listings with images, descriptions, and pricing, making it easy for users to search for homes or commercial spaces. The site often includes filters for location, price, and property type, providing a seamless experience for both buyers and sellers.",
+    stack: [
+      {
+        id: "icon-1",
+        icon: SiLaravel,
+        name: "Laravel",
+      },
+      {
+        id: "icon-2",
+        icon: SiReact,
+        name: "React Js",
+      },
+      {
+        id: "icon-3",
+        icon: SiTailwindcss,
+        name: "TailwindCSS",
+      },
+      {
+        id: "icon-4",
+        icon: SiJquery,
+        name: "jQuery",
+      },
+    ],
+  },
+  {
+    id: "project-11",
     title: "Warehouse Management System",
     company: "SMS Appliance",
     github: "https://github.com/engr-akramulhoque/wms-software.git",
@@ -734,13 +810,50 @@ export const projects = [
     ],
   },
   {
-    id: "project-10",
+    id: "project-12",
+    title: "Online Earning Web Applications",
+    company: "MFS Pay",
+    github: "",
+    link: "http://mfspay.online/",
+    image: mfspay,
+    content:
+      "MFS PAY is an online earning website that allows users to earn money through various digital tasks and activities. It offers multiple earning opportunities, such as surveys, referrals, and micro-tasks, providing users with an easy way to generate income online. The platform is user-friendly and supports secure transactions.",
+    stack: [
+      {
+        id: "icon-1",
+        icon: SiLaravel,
+        name: "Laravel",
+      },
+      {
+        id: "icon-2",
+        icon: SiBootstrap,
+        name: "Bootstrap",
+      },
+      {
+        id: "icon-3",
+        icon: SiJquery,
+        name: "jQuery",
+      },
+      {
+        id: "icon-4",
+        icon: SiContactlesspayment,
+        name: "uddokta pay",
+      },
+      {
+        id: "icon-5",
+        icon: SiTwilio,
+        name: "Twillio",
+      },
+    ],
+  },
+  {
+    id: "project-13",
     title: "Personal Portfolio",
     company: "Akramul Hoque",
     github: "https://github.com/engr-akramulhoque/personal-portfolio.git",
     link: "https://akramulhoque-profile.areiatech.com/",
     image: portfolio,
-    content: "Personal portfolio website with React and Tailwind CSS.",
+    content: "A Personal Portfolio is a digital showcase of an individual’s skills, projects, and achievements. It serves as an online resume, allowing professionals to highlight their expertise, share their work, and attract potential clients or employers. A well-designed portfolio enhances credibility and personal branding.",
     stack: [
       {
         id: "icon-1",
@@ -756,6 +869,32 @@ export const projects = [
         id: "icon-3",
         icon: AiFillHtml5,
         name: "HTML",
+      },
+    ],
+  },
+  {
+    id: "project-14",
+    title: "Laravel Livewire TODO",
+    company: "Akramul Hoque",
+    github: "https://github.com/engr-akramulhoque/laravel-livewire-todo.git",
+    link: "",
+    image: todoapp,
+    content: "Laravel Livewire TODO is a dynamic task management system built with Laravel and Livewire, enabling real-time updates without page reloads. It allows users to create, edit, and manage tasks seamlessly with an interactive and responsive interface. This enhances productivity and provides a smooth user experience.",
+    stack: [
+      {
+        id: "icon-1",
+        icon: SiLaravel,
+        name: "Laravel",
+      },
+      {
+        id: "icon-2",
+        icon: SiTailwindcss,
+        name: "TailwindCSS",
+      },
+      {
+        id: "icon-2",
+        icon: SiLivewire,
+        name: "Livewire",
       },
     ],
   },
