@@ -1,15 +1,6 @@
 ## Optimizing JavaScript for High-Performance Web Applications
 
-<img src="../assets/blogs/optimization.png" alt="JavaScript Performance">
-
-<style>
-  img {
-    display: block;
-    margin: 0 auto;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  }
-</style>
+<img src="../assets/blogs/optimization.png" alt="JavaScript Performance" width="100%" height="400" style="object-fit: cover;">
 
 ### Introduction
 

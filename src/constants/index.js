@@ -958,7 +958,7 @@ export const blogPosts = [
   {
     id: "post-1",
     title: "Mastering Laravel: Best Practices for Scalable Applications",
-    link: "https://yourportfolio.com/blog/mastering-laravel",
+    link: "https://github.com/engr-akramulhoque/personal-portfolio/blob/master/src/blogs/mastering-laravel.md",
     date: "January 25, 2024",
     image: laravelBlog,
     tags: [
@@ -979,7 +979,7 @@ export const blogPosts = [
   {
     id: "post-2",
     title: "Creating Responsive UI with Tailwind CSS",
-    link: "https://yourportfolio.com/blog/tailwind-responsive-ui",
+    link: "https://github.com/engr-akramulhoque/personal-portfolio/blob/master/src/blogs/creating-responsive-UI.md",
     date: "February 10, 2024",
     image: responsiveUI,
     tags: [
@@ -1000,7 +1000,7 @@ export const blogPosts = [
   {
     id: "post-3",
     title: "Optimizing JavaScript for High-Performance Web Applications",
-    link: "https://yourportfolio.com/blog/javascript-performance",
+    link: "https://github.com/engr-akramulhoque/personal-portfolio/blob/master/src/blogs/optimizing-javaScript.md",
     date: "March 5, 2024",
     image: performanceOptimization,
     tags: [
