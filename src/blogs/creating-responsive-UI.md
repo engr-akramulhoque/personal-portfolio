@@ -1,15 +1,6 @@
 ## Creating Responsive UI with Tailwind CSS
 
-<img src="../assets/blogs/responsive-ui.jpg" alt="Tailwind Responsive UI">
-
-<style>
-  img {
-    display: block;
-    margin: 0 auto;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  }
-</style>
+<img src="../assets/blogs/responsive-ui.jpg" alt="Tailwind Responsive UI" width="100%" height="400" style="object-fit: cover;">
 
 ### Introduction
 
