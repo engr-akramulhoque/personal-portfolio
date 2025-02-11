@@ -22,7 +22,11 @@ import areiatechHome from "../assets/projects/areiatech.png";
 import pos from "../assets/projects/pos.png";
 import ecommerce from "../assets/projects/ecommerce.png";
 import todoapp from "../assets/projects/todo.png";
-import logo from "../assets/logo.svg";
+import loader from "../assets/favicon.jpg";
+
+import laravelBlog from "../assets/blogs/laravel-blog.png";
+import responsiveUI from "../assets/blogs/responsive-ui.jpg";
+import performanceOptimization from "../assets/blogs/optimization.png";
 
 import parthmittal from "./parth.svg";
 import profilePic from "./profile-pic.jpg";
@@ -52,7 +56,7 @@ import graphql from "./graphql.png";
 import zulip from "./zulip.jpg";
 import publiclab from "./publiclab.png";
 import oracle from "./oracle.jpg";
-import averlon from "./averlon.jpg";
+// import averlon from "./averlon.jpg";
 import devfolio from "./devfolio.png";
 import ethglobal from "./ethglobal.png";
 import polkadot from "./polkadot.jpeg";
@@ -62,7 +66,7 @@ import manipal from "./manipal.png";
 import icon from "./icon.jpg";
 import ethforall from "./ethforall.png";
 export {
-  logo,
+  loader,
   akramulhoque,
   retouchingcloud,
   z8tech,
@@ -87,6 +91,10 @@ export {
   pos,
   ecommerce,
   todoapp,
+
+  laravelBlog,
+  responsiveUI,
+  performanceOptimization,
 
   quotes,
   robot,
@@ -116,7 +124,7 @@ export {
   parthmittal,
   profilePic,
   oracle,
-  averlon,
+  // averlon,
   devfolio,
   ethglobal,
   polkadot,

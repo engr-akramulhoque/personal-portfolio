@@ -22,6 +22,10 @@ import {
   ecommerce,
   todoapp,
 
+  laravelBlog,
+  responsiveUI,
+  performanceOptimization,
+
   gdsc,
   iris,
   ecell,
@@ -85,10 +89,6 @@ import {
 import { FaVuejs } from "react-icons/fa6";
 
 import { DiCss3, DiJava, DiMysql, DiPhp } from "react-icons/di";
-
-import laravelBlog from "../assets/blogs/laravel-blog.png";
-import responsiveUI from "../assets/blogs/responsive-ui.jpg";
-import performanceOptimization from "../assets/blogs/optimization.png";
 
 export const resumeLink =
   "https://drive.google.com/file/d/15Og2WulGx1mT4UwROnxcSSsqa94Yw38_/view?usp=drivesdk";
@@ -453,8 +453,41 @@ export const educationList = [
 // Add information about all the projects to be listed out in your portfolio
 export const projects = [
   {
+    id: "project-15",
+    title: "Retouching Cloud Official Website",
+    status: "On Hand",
+    company: "Retouching Cloud",
+    github: "https://github.com/engr-akramulhoque/retouching-cloud-website.git",
+    link: "https://www.retouchingcloud.com/",
+    image: todoapp,
+    content: "Retouching Cloud Official Website is a professional photo retouching platform designed to streamline image enhancement workflows. Built with modern web technologies, it offers a seamless and interactive experience for users to upload, manage, and track their retouching projects. With an intuitive interface and efficient processing, it ensures high-quality results with minimal effort.",
+    stack: [
+      {
+        id: "icon-1",
+        icon: SiLaravel,
+        name: "Laravel",
+      },
+      {
+        id: "icon-2",
+        icon: SiTailwindcss,
+        name: "TailwindCSS",
+      },
+      {
+        id: "icon-3",
+        icon: SiBootstrap,
+        name: "Bootstrap",
+      },
+      {
+        id: "icon-2",
+        icon: SiLivewire,
+        name: "Livewire",
+      },
+    ],
+  },
+  {
     id: "project-1",
     title: "Cleaning Services Website",
+    status: "Completed",
     company: "cleanandservice.xyz",
     github: "https://github.com/engr-akramulhoque/cleanandservice-website.git",
     link: "https://cleanandservice.xyz/",
@@ -497,6 +530,7 @@ export const projects = [
   {
     id: "project-2",
     title: "JKA Bangladesh Official Website",
+    status: "Completed",
     company: "JKA WF Bangladesh",
     github: "",
     link: "https://jkabangladesh.com/",
@@ -519,6 +553,7 @@ export const projects = [
   {
     id: "project-3",
     title: "Certificate Management System",
+    status: "Completed",
     company: "JKA WF Bangladesh",
     github: "https://github.com/engr-akramulhoque/certificate-management.git",
     link: "https://certificate.jkabangladesh.com/",
@@ -556,6 +591,7 @@ export const projects = [
   {
     id: "project-4",
     title: "Food sale E-commerce",
+    status: "Completed",
     company: "Best Food CTG",
     github: "https://github.com/engr-akramulhoque/bestfoodctg-ecommerce.git",
     link: "https://bestfoodctg.com/",
@@ -588,6 +624,7 @@ export const projects = [
   {
     id: "project-5",
     title: "Multi-Vendor E-Commerce",
+    status: "Completed",
     company: "Areia Tech",
     github: "https://github.com/engr-akramulhoque/laravel-eshop.git",
     link: "https://preview-eshop.areiatech.com/",
@@ -629,6 +666,7 @@ export const projects = [
   {
     id: "project-6",
     title: "Support Ticket System",
+    status: "Completed",
     company: "Areia Tech",
     github: "https://github.com/engr-akramulhoque/laravel-help-desk.git",
     link: "http://perview-support.areiatech.com/",
@@ -666,6 +704,7 @@ export const projects = [
   {
     id: "project-7",
     title: "Parking Managment System",
+    status: "Completed",
     company: "Bali Arcade Shopping Mall Food Court.",
     github: "https://github.com/engr-akramulhoque/parking-management.git",
     link: "https://baliparking.z8tech.dev/",
@@ -692,6 +731,7 @@ export const projects = [
   {
     id: "project-8",
     title: "Areia Tech Website",
+    status: "Completed",
     company: "Areia Tech",
     github: "https://github.com/areiatech/areiatech-website.git",
     link: "https://areiatech.com/",
@@ -728,6 +768,7 @@ export const projects = [
   {
     id: "project-9",
     title: "Smart POS System",
+    status: "Completed",
     company: "Chistia Super Market",
     github: "https://github.com/engr-akramulhoque/smart-pos-solution.git",
     link: "https://preview-pos.areiatech.com/",
@@ -769,6 +810,7 @@ export const projects = [
   {
     id: "project-10",
     title: "Real Estate Web Application",
+    status: "Completed",
     company: "Z-Eight Tech",
     github: "https://github.com/engr-akramulhoque/realestate-website.git",
     link: "https://demo-realestate.z8tech.dev",
@@ -801,6 +843,7 @@ export const projects = [
   {
     id: "project-11",
     title: "Warehouse Management System",
+    status: "Completed",
     company: "SMS Appliance",
     github: "https://github.com/engr-akramulhoque/wms-software.git",
     link: "https://smsinventory.ca",
@@ -838,6 +881,7 @@ export const projects = [
   {
     id: "project-12",
     title: "Online Earning Web Applications",
+    status: "Completed",
     company: "MFS Pay",
     github: "",
     link: "http://mfspay.online/",
@@ -875,6 +919,7 @@ export const projects = [
   {
     id: "project-13",
     title: "Personal Portfolio",
+    status: "Completed",
     company: "Akramul Hoque",
     github: "https://github.com/engr-akramulhoque/personal-portfolio.git",
     link: "https://akramulhoque-profile.areiatech.com/",
@@ -901,6 +946,7 @@ export const projects = [
   {
     id: "project-14",
     title: "Laravel Livewire TODO",
+    status: "Completed",
     company: "Akramul Hoque",
     github: "https://github.com/engr-akramulhoque/laravel-livewire-todo.git",
     link: "",

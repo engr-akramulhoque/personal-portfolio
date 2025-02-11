@@ -1,6 +1,6 @@
 import styles from "../style";
 import { motion } from "framer-motion";
-import { logo } from "../assets";
+import { loader } from "../assets";
 
 const Loading = () => {
   return (
@@ -15,7 +15,7 @@ const Loading = () => {
         ease: "easeInOut",
       }}
     >
-      <img src={logo} alt="Akramul Hoque" className="w-[80px] h-[80px]" />
+      <img src={loader} alt="Akramul Hoque" className="w-[80px] h-[80px]" />
     </motion.div>
   );
 };
