@@ -1,6 +1,7 @@
 import {
   z8tech,
   areiatech,
+  retouchingcloud,
   cu,
   amc,
   muuphs,
@@ -90,7 +91,7 @@ import responsiveUI from "../assets/blogs/responsive-ui.jpg";
 import performanceOptimization from "../assets/blogs/optimization.png";
 
 export const resumeLink =
-  "https://drive.google.com/file/d/1vkxyMDB5_KpMwt4QXFgT2aqdRizr8Czh/view?usp=sharing";
+  "https://drive.google.com/file/d/15Og2WulGx1mT4UwROnxcSSsqa94Yw38_/view?usp=drivesdk";
 
 export const repoLink = "https://github.com/engr-akramulhoque/personal-portfolio.git";
 
@@ -112,7 +113,7 @@ export const navLinks = [
   },
   {
     id: "openSource",
-    title: "Open Source",
+    title: "Contributions",
   },
   {
     id: "blog",
@@ -120,15 +121,15 @@ export const navLinks = [
   },
   {
     id: "contactMe",
-    title: "Contact",
+    title: "Contact Me",
+  },
+  {
+    id: "achievements",
+    title: "Achievements",
   },
   // {
   //   id: "extraCurricular",
   //   title: "Extra Curricular",
-  // },
-  // {
-  //   id: "achievements",
-  //   title: "Achievements",
   // },
 ];
 
@@ -329,13 +330,30 @@ export const skills = [
 // Add current & past professional work experience here
 export const experiences = [
   {
+    organisation: "Retouching Cloud, Dhaka-1216",
+    logo: retouchingcloud,
+    link: "https://www.retouchingcloud.com/",
+    positions: [
+      {
+        title: "Sr. Web Developer (PHP/Laravel)",
+        duration: "February 2025 - Present",
+        content: [
+          {
+            text: "Led the design and implementation of databases using MySQL, ensuring efficient data handling. Ensured code quality through unit testing, version control, and following software development best practices.",
+            link: "",
+          },
+        ],
+      },
+    ],
+  },
+  {
     organisation: "Z-Eight Tech, Chittagong",
     logo: z8tech,
     link: "https://z8tech.dev",
     positions: [
       {
         title: "Software Engineer (PHP/Laravel)",
-        duration: "January 2024 - Present",
+        duration: "January 2024 - January 2025",
         content: [
           {
             text: "Architecting and developing robust, scalable web applications using Laravel, Vue.js, React.js, and other modern frameworks. Leading collaborative efforts with cross-functional teams including designers, project managers, and developers to ensure smooth project execution.",
@@ -353,10 +371,6 @@ export const experiences = [
         content: [
           {
             text: "Developed dynamic and responsive web applications using PHP, Laravel, and JavaScript libraries. Collaborated with UI/UX designers and product managers to turn designs into functional web pages.",
-            link: "",
-          },
-          {
-            text: "Ensured cross-browser compatibility, SEO optimization, and performance enhancements. Managed web application deployment and maintenance, including bug fixing and feature updates.",
             link: "",
           },
         ],
@@ -384,10 +398,6 @@ export const experiences = [
         content: [
           {
             text: "Developed full-stack web applications using Vue.js for frontend and Laravel for backend. Integrated third-party services and APIs to enhance web app functionality and user experience.",
-            link: "",
-          },
-          {
-            text: "Led the design and implementation of databases using MongoDB and MySQL, ensuring efficient data handling. Ensured code quality through unit testing, version control, and following software development best practices.",
             link: "",
           },
         ],

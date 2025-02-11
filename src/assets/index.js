@@ -1,6 +1,7 @@
 import akramulhoque from "./akramul.jpeg";
 import z8tech  from "../assets/z8tech.jpg";
 import areiatech  from "../assets/areiatech.jpg";
+import retouchingcloud from "../assets/rc-logo.jpg"
 import cu from "../assets/cu.jpg";
 import amc from "../assets/amc.jpg";
 import muuphs from "../assets/muuphs.jpg";
@@ -63,7 +64,7 @@ import ethforall from "./ethforall.png";
 export {
   logo,
   akramulhoque,
-  
+  retouchingcloud,
   z8tech,
   areiatech,
   cu,
