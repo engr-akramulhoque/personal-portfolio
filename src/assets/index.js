@@ -22,7 +22,9 @@ import areiatechHome from "../assets/projects/areiatech.png";
 import pos from "../assets/projects/pos.png";
 import ecommerce from "../assets/projects/ecommerce.png";
 import todoapp from "../assets/projects/todo.png";
-import loader from "../assets/favicon.jpg";
+import rcloud from "../assets/projects/retouchingcloud.png";
+
+import loader from "../assets/favicon.png";
 
 import laravelBlog from "../assets/blogs/laravel-blog.png";
 import responsiveUI from "../assets/blogs/responsive-ui.jpg";
@@ -91,6 +93,7 @@ export {
   pos,
   ecommerce,
   todoapp,
+  rcloud,
 
   laravelBlog,
   responsiveUI,

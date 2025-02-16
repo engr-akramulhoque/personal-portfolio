@@ -68,7 +68,7 @@ const App = () => {
                 {/* <ExtraCurricular /> */}
               </div>
             </div>
-            <Achievements />
+            {/* <Achievements /> */}
             <Footer />
           </motion.section>
         )}
