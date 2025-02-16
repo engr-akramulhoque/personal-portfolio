@@ -21,6 +21,7 @@ import {
   pos,
   ecommerce,
   todoapp,
+  rcloud,
 
   laravelBlog,
   responsiveUI,
@@ -123,10 +124,10 @@ export const navLinks = [
     id: "contactMe",
     title: "Contact Me",
   },
-  {
-    id: "achievements",
-    title: "Achievements",
-  },
+  // {
+  //   id: "achievements",
+  //   title: "Achievements",
+  // },
   // {
   //   id: "extraCurricular",
   //   title: "Extra Curricular",
@@ -459,7 +460,7 @@ export const projects = [
     company: "Retouching Cloud",
     github: "https://github.com/engr-akramulhoque/retouching-cloud-website.git",
     link: "https://www.retouchingcloud.com/",
-    image: todoapp,
+    image: rcloud,
     content: "Retouching Cloud Official Website is a professional photo retouching platform designed to streamline image enhancement workflows. Built with modern web technologies, it offers a seamless and interactive experience for users to upload, manage, and track their retouching projects. With an intuitive interface and efficient processing, it ensures high-quality results with minimal effort.",
     stack: [
       {
@@ -1187,7 +1188,7 @@ export const aboutMe = {
   tagLine:
     "Software Engineer @z8tech | Laravel web developer @z8tech | Full Stack Developer @areiatech | Freelancer",
   intro:
-    "Software Engineer from Bangladesh, constantly pushing the boundaries of innovation or crafting the next game-changing idea.",
+    "Software Engineer with 3+ years of experience in PHP, Laravel, Vue.js, and modern web technologies. Skilled in building scalable applications, optimizing performance, and integrating APIs. Passionate about clean architecture and innovative solutions.",
 };
 
 // Links to your social media profiles
