@@ -492,11 +492,6 @@ export const projects = [
         icon: SiContactlesspayment,
         name: "ssl-commerce",
       },
-      {
-        id: "icon-6",
-        icon: SiTwilio,
-        name: "Twillio",
-      },
     ],
   },
   {
