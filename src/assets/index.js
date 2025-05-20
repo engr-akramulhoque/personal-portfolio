@@ -1,7 +1,7 @@
 import akramulhoque from "./akramul.jpeg";
-import z8tech  from "../assets/z8tech.jpg";
-import areiatech  from "../assets/areiatech.jpg";
-import retouchingcloud from "../assets/rc-logo.jpg"
+import z8tech from "../assets/z8tech.jpg";
+import areiatech from "../assets/areiatech.jpg";
+import retouchingcloud from "../assets/rc-logo.jpg";
 import cu from "../assets/cu.jpg";
 import amc from "../assets/amc.jpg";
 import muuphs from "../assets/muuphs.jpg";
@@ -23,6 +23,8 @@ import pos from "../assets/projects/pos.png";
 import ecommerce from "../assets/projects/ecommerce.png";
 import todoapp from "../assets/projects/todo.png";
 import rcloud from "../assets/projects/retouchingcloud.png";
+import rcimageconverter from "../assets/projects/rcimageconverter.png";
+import rcclientportal from "../assets/projects/rcclientportal.png";
 
 import loader from "../assets/favicon.png";
 
@@ -76,7 +78,6 @@ export {
   cu,
   amc,
   muuphs,
-
   bestfoodctg,
   certificate,
   cleaning,
@@ -94,11 +95,11 @@ export {
   ecommerce,
   todoapp,
   rcloud,
-
+  rcimageconverter,
+  rcclientportal,
   laravelBlog,
   responsiveUI,
   performanceOptimization,
-
   quotes,
   robot,
   send,
