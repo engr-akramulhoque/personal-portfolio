@@ -22,11 +22,9 @@ import {
   ecommerce,
   todoapp,
   rcloud,
-
   laravelBlog,
   responsiveUI,
   performanceOptimization,
-
   gdsc,
   iris,
   ecell,
@@ -94,9 +92,11 @@ import { DiCss3, DiJava, DiMysql, DiPhp } from "react-icons/di";
 export const resumeLink =
   "https://drive.google.com/file/d/15Og2WulGx1mT4UwROnxcSSsqa94Yw38_/view?usp=drivesdk";
 
-export const repoLink = "https://github.com/engr-akramulhoque/personal-portfolio.git";
+export const repoLink =
+  "https://github.com/engr-akramulhoque/personal-portfolio.git";
 
-export const callToAction = "https://www.linkedin.com/in/akramul-hoque-ba6204286?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app";
+export const callToAction =
+  "https://www.linkedin.com/in/akramul-hoque-ba6204286?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app";
 
 // Add Nav Links Here
 export const navLinks = [
@@ -461,7 +461,8 @@ export const projects = [
     github: "https://github.com/engr-akramulhoque/retouching-cloud-website.git",
     link: "https://www.retouchingcloud.com/",
     image: rcloud,
-    content: "Retouching Cloud Official Website is a professional photo retouching platform designed to streamline image enhancement workflows. Built with modern web technologies, it offers a seamless and interactive experience for users to upload, manage, and track their retouching projects. With an intuitive interface and efficient processing, it ensures high-quality results with minimal effort.",
+    content:
+      "Retouching Cloud Official Website is a professional photo retouching platform designed to streamline image enhancement workflows. Built with modern web technologies, it offers a seamless and interactive experience for users to upload, manage, and track their retouching projects. With an intuitive interface and efficient processing, it ensures high-quality results with minimal effort.",
     stack: [
       {
         id: "icon-1",
@@ -630,7 +631,8 @@ export const projects = [
     github: "https://github.com/engr-akramulhoque/laravel-eshop.git",
     link: "https://preview-eshop.areiatech.com/",
     image: ecommerce,
-    content: "A Multi-Vendor E-Commerce platform allows multiple sellers to list and sell their products in a single online marketplace. It provides a seamless shopping experience for customers while enabling vendors to manage their inventory, orders, and payments efficiently. This system enhances business growth by expanding product variety and streamlining transactions.",
+    content:
+      "A Multi-Vendor E-Commerce platform allows multiple sellers to list and sell their products in a single online marketplace. It provides a seamless shopping experience for customers while enabling vendors to manage their inventory, orders, and payments efficiently. This system enhances business growth by expanding product variety and streamlining transactions.",
     stack: [
       {
         id: "icon-1",
@@ -710,7 +712,8 @@ export const projects = [
     github: "https://github.com/engr-akramulhoque/parking-management.git",
     link: "https://baliparking.z8tech.dev/",
     image: parking,
-    content: "A Parking Management System is a software solution designed to efficiently manage parking facilities by automating tasks such as space allocation, vehicle tracking, and access control.",
+    content:
+      "A Parking Management System is a software solution designed to efficiently manage parking facilities by automating tasks such as space allocation, vehicle tracking, and access control.",
     stack: [
       {
         id: "icon-1",
@@ -737,7 +740,8 @@ export const projects = [
     github: "https://github.com/areiatech/areiatech-website.git",
     link: "https://areiatech.com/",
     image: areiatechHome,
-    content: "Areia Tech is a comprehensive IT solutions platform that provides innovative tools for businesses to streamline operations. From customer support systems to automation services, Areia Tech enhances efficiency, improves collaboration, and ensures seamless digital experiences.",
+    content:
+      "Areia Tech is a comprehensive IT solutions platform that provides innovative tools for businesses to streamline operations. From customer support systems to automation services, Areia Tech enhances efficiency, improves collaboration, and ensures seamless digital experiences.",
     stack: [
       {
         id: "icon-1",
@@ -774,7 +778,8 @@ export const projects = [
     github: "https://github.com/engr-akramulhoque/smart-pos-solution.git",
     link: "https://preview-pos.areiatech.com/",
     image: pos,
-    content: "A Smart POS System is an advanced point-of-sale solution that streamlines sales, inventory, and customer management. It enables businesses to process transactions efficiently, track stock in real-time, and generate insightful reports. With seamless integrations and user-friendly features, a Smart POS System enhances business operations and improves customer experience.",
+    content:
+      "A Smart POS System is an advanced point-of-sale solution that streamlines sales, inventory, and customer management. It enables businesses to process transactions efficiently, track stock in real-time, and generate insightful reports. With seamless integrations and user-friendly features, a Smart POS System enhances business operations and improves customer experience.",
     stack: [
       {
         id: "icon-1",
@@ -925,7 +930,8 @@ export const projects = [
     github: "https://github.com/engr-akramulhoque/personal-portfolio.git",
     link: "https://akramulhoque-profile.areiatech.com/",
     image: portfolio,
-    content: "A Personal Portfolio is a digital showcase of an individual’s skills, projects, and achievements. It serves as an online resume, allowing professionals to highlight their expertise, share their work, and attract potential clients or employers. A well-designed portfolio enhances credibility and personal branding.",
+    content:
+      "A Personal Portfolio is a digital showcase of an individual’s skills, projects, and achievements. It serves as an online resume, allowing professionals to highlight their expertise, share their work, and attract potential clients or employers. A well-designed portfolio enhances credibility and personal branding.",
     stack: [
       {
         id: "icon-1",
@@ -952,7 +958,8 @@ export const projects = [
     github: "https://github.com/engr-akramulhoque/laravel-livewire-todo.git",
     link: "",
     image: todoapp,
-    content: "Laravel Livewire TODO is a dynamic task management system built with Laravel and Livewire, enabling real-time updates without page reloads. It allows users to create, edit, and manage tasks seamlessly with an interactive and responsive interface. This enhances productivity and provides a smooth user experience.",
+    content:
+      "Laravel Livewire TODO is a dynamic task management system built with Laravel and Livewire, enabling real-time updates without page reloads. It allows users to create, edit, and manage tasks seamlessly with an interactive and responsive interface. This enhances productivity and provides a smooth user experience.",
     stack: [
       {
         id: "icon-1",
@@ -973,7 +980,7 @@ export const projects = [
   },
 ];
 
-// Add contributions here 
+// Add contributions here
 export const contributions = [
   {
     id: 1,
