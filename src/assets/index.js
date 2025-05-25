@@ -25,6 +25,7 @@ import todoapp from "../assets/projects/todo.png";
 import rcloud from "../assets/projects/retouchingcloud.png";
 import rcimageconverter from "../assets/projects/rcimageconverter.png";
 import rcclientportal from "../assets/projects/rcclientportal.png";
+import minilink from "../assets/projects/minilink.png";
 
 import loader from "../assets/favicon.png";
 
@@ -97,6 +98,7 @@ export {
   rcloud,
   rcimageconverter,
   rcclientportal,
+  minilink,
   laravelBlog,
   responsiveUI,
   performanceOptimization,

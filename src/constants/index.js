@@ -39,6 +39,7 @@ import {
   manipal,
   icon,
   ethforall,
+  minilink,
 } from "../assets";
 
 import {
@@ -85,6 +86,8 @@ import {
   SiClickup,
   SiJsonwebtokens,
   SiContactlesspayment,
+  SiAlpinedotjs,
+  SiStripe,
 } from "react-icons/si";
 
 import { FaVuejs } from "react-icons/fa6";
@@ -456,7 +459,7 @@ export const educationList = [
 // Add information about all the projects to be listed out in your portfolio
 export const projects = [
   {
-    id: "project-17",
+    id: "project-18",
     title: "Retouching Cloud Client Portal",
     status: "On Hand",
     company: "Retouching Cloud",
@@ -486,6 +489,50 @@ export const projects = [
         id: "icon-4",
         icon: SiJquery,
         name: "jQuery",
+      },
+      {
+        id: "icon-5",
+        icon: SiContactlesspayment,
+        name: "ssl-commerce",
+      },
+    ],
+  },
+  {
+    id: "project-17",
+    title: "MiniLink - laravel URL shortener",
+    status: "Completed",
+    company: "Areia Tech",
+    github:
+      "https://github.com/areiatech/MiniLink.git",
+    link: "https://minilink.areiatech.com",
+    image: minilink,
+    content:
+      "MiniLink – A powerful, modern URL shortener built with Laravel. Create, manage, and track short links with custom aliases, analytics, QR codes, and more. MiniLink is a powerful yet lightweight URL shortener built with Laravel. Designed for simplicity and performance, MiniLink allows users to generate clean, short URLs that redirect seamlessly to longer destination links. Whether you're managing marketing campaigns, tracking click analytics, or just sharing compact links, MiniLink provides a robust solution tailored for modern web applications.",
+    stack: [
+      {
+        id: "icon-1",
+        icon: SiLaravel,
+        name: "Laravel",
+      },
+      {
+        id: "icon-2",
+        icon: SiTailwindcss,
+        name: "TailwindCSS",
+      },
+      {
+        id: "icon-3",
+        icon: SiJquery,
+        name: "jQuery",
+      },
+      {
+        id: "icon-4",
+        icon: SiAlpinedotjs,
+        name: "Alpine.js",
+      },
+      {
+        id: "icon-5",
+        icon: SiStripe,
+        name: "Stripe",
       },
       {
         id: "icon-5",
